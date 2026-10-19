@@ -1,0 +1,237 @@
+body{
+    background-color: #edd1f4;
+    display: flex;
+    justify-content: center;
+}
+#tudo{
+    width: 1200px;
+    height: 2250px;
+    background-color: white;
+}
+#cabecalho{
+    display: flex;
+    justify-content:space-around;
+}
+#slogan{
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+}
+#coracao{
+    margin-left: 400px;
+}
+.pesquisar{
+    background-color: #dfadeb;
+    display: flex;
+    width: 1160px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content:space-around;
+}
+#barraPesquisa{
+    background: white;
+    width: 350px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#BarraPesquisa{
+        background: none;
+        border: 0;
+        outline: 0;
+        font-size: 16px;
+}
+#IconeLupaAzul{
+            width: 20px;
+            height: 20px;
+            margin-left: 125px;
+}
+#naves{
+    background-color: #dfadeb;
+    display: flex;
+    width: 1160px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content:space-around;
+}
+.naves{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+}
+h1{
+    font-family: 'Lobster Two', cursive;
+}
+#Produto{
+    display: flex;
+}
+#Descricao{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:justify;
+    font-size: 40px;
+}
+#Compra{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#botao_comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    background-color: #dfadeb;
+}
+#Comprar{
+    text-align: center;
+    font-size: 15px; 
+    text-decoration: none;
+    color: black;
+}
+#preco{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.login_titulo{
+    font-family: 'Lobster Two', cursive;
+    text-decoration: none;
+    color: black;
+}
+#opcoes{
+    display: flex;
+    justify-content: space-around;
+}
+.cadastro{
+    background-color: #dfadeb;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 530px;
+    height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#sucesso{
+    padding-left: 20px;
+}
+#produtoserelatorio{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.produto{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 750px;
+    border-color: #dfadeb;
+    border-style: solid;
+    border-width: 5px;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.nome_produto{
+    font-family: 'Lobster Two', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:20px;
+    align-items: center;
+}
+.quantidade{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:20px;
+    align-items: center;
+}
+.preco{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:20px;
+    align-items: center;
+}
+.remover{
+    padding-right: 20px;
+}
+.imagem{
+    padding-left: 20px;
+}
+#relatorio{
+    margin-right: 20px;
+    width: 170px;
+    border-color: #dfadeb;
+    border-style: solid;
+    border-width: 5px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+}
+.relatorio{
+    font-family: 'Lobster Two', cursive;
+}
+.detalhes_relatorio{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color:black;
+}
+#rodape{
+    border-top: solid 3px  #dfadeb;
+    width: 1160px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.produto_index{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.p{
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+}
+.redirecionar{
+    text-decoration: none;
+    color: black;
+}
+.comentarios{
+    list-style-type: none;
+}
+.direitoseforms{
+    display: flex;
+    justify-content:center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#comentarios{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    text-align: center;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
